@@ -1,0 +1,258 @@
+html,body{
+	width: 100%;
+	height: 100%;
+}
+.slider{
+	display: table;
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 100%;
+	background-image: url('../img/header-bg.jpg')
+}
+.slider-data{
+	text-align: center;
+	vertical-align: middle;
+	display: table-cell;
+}
+.slider-data h1{
+	margin: 0;
+	color: white;
+	font-weight: bold;
+	font-size: 65px;
+}
+.slider-data h1 span{
+	color: #f2c926;
+}
+.slider-data p{
+	color: #d8dfe1;
+	font-size: 19px;
+	margin-bottom: 85px;
+	margin-top: 25px;
+}
+.slider-data a{
+	padding: 15px 18px;
+	background-color: #f2c926;
+	font-size: 16px;
+	color: #284c56;
+	border-radius: 5px 5px;
+	transition: all 0.40s ease;
+}
+.slider-data a:hover{
+	background-color: #284c56;
+	color: #f2c926;
+	text-decoration: none;
+}
+a{
+	text-decoration: none;
+
+}
+ul{
+	padding: 0;
+	list-style: none;
+}
+h1,h1,h3,h4,h5,h6,p{
+	margin: 0;
+}
+.bg-gry{
+	background-color: #f4f4f4;
+	padding-bottom: 100px;
+}
+.rpeat-head{
+	margin-top: 115px;
+	margin-bottom: 50px;
+}
+.rpeat-head h1{
+	color: #1c424d;
+	font-size: 34px;
+	margin-bottom: 30px;
+}
+.rpeat-head p{
+	color: #032731;
+	margin-top: 35px;
+}
+.rpeat-head hr{
+	width: 60px;
+	height: 3px;
+	border: 0;
+	background-color: #f3ca27;
+}
+.about-img img{
+	width: 100%;
+}
+.about-txt h1{
+	margin-bottom: 30px;
+	color: #1c424d;
+	font-weight: bolder;
+}
+.about-txt p{
+	margin-bottom: 45px;
+	color: #5b777f;
+}
+.list-item li i{
+	margin-right: 5px;
+	color: #f3ca27;
+}
+.list-item li a{
+	color: #1c424d;
+}
+.list-item li{
+	margin-bottom: 5px;
+}
+.bg-2{
+	background-color: #032e3a;
+	padding-bottom: 90px;
+}
+.rpeat-head h1.white{
+	color: white;
+}
+.rpeat-head p.gry{
+	color: #d4d4d4;
+	line-height: 30px;
+}
+.one-four{
+	text-align: center;
+}
+.one-four i{
+	width: 100px;
+	height: 80px;
+	line-height: 80px;
+	background-color: #032934;
+	color: #f3ca27;
+	border-radius: 10px;
+	margin-bottom: 30px;
+	transition: all 0.30s ease;
+}
+.one-four i:hover{
+	background-color: #f3ca27;
+	color: #032934;
+}
+.one-four h3{
+	color: white;
+	font-size: 18px;
+	margin-bottom: 25px;
+}
+.one-four p{
+	color: #d4d4d4;
+}
+.link ul li{
+	display: inline;
+	padding: 15px 20px;
+	margin-left: 6px;
+	margin-right: 6px;
+	border-radius: 3px;
+	background-color: #f5f5f5;
+	transition: all 0.25s ease; 
+}
+.link ul li a{
+	color: #4c4c4c;
+	font-size: 10px;
+}
+.link ul li:hover{
+	background-color: #1c424d;
+}
+.link ul li:hover a{
+	color: white;
+	text-decoration: none;
+}
+.portfolio{
+	margin-top: 45px;
+	margin-bottom: 75px;
+}
+.portfolio img{
+	margin-bottom: 35px;
+}
+.bg-img{
+	background-image: url('../img/statistics-bg.jpg');
+	background-attachment: fixed;
+	background-size: cover;
+}
+.services{
+	text-align: center;
+	margin-bottom: 105px;
+	margin-top: 110px;
+}
+.services i{
+	color: white;
+}
+.services h1{
+	color: #fdd835;
+}
+.services P{
+	font-size: 20px;
+	color: #eee;
+	margin-top: 22px;
+}
+.team{
+	text-align: center;
+	margin-bottom: 85px;
+}
+.team h4{
+	color: #1c424d;
+	margin-top: 20px;
+	font-weight: bold;
+}
+.team p{
+	color: #1c424d;
+	font-size: 17px;
+}
+.team ul{
+	margin-top: 25px;
+}
+.team ul li{
+	display: inline;
+	margin-right: 10px;
+	font-size: 17px;
+	color: #f3ca27;
+}
+.rpeat-head h4{
+	margin-top: 40px;
+	color: #d3d3d3;
+}
+.info{
+	text-align: center;
+	margin-bottom: 40px;
+}
+.info i{
+	color: #f3ca27;
+	margin-bottom: 25px;
+}
+.info p{
+	color: #032731;
+}
+.social-follow{
+	margin-bottom: 110px;
+	margin-top: 90px;
+}
+.social-follow ul li{
+	margin-right: 15px;
+}
+.social-follow ul li i{
+	color: #f3ca27;
+}
+footer{
+	background-color: #032731;
+	height: 65px;
+	line-height: 65px;
+}
+.copy p{
+	font-size: 16px;
+	color: #d4d4d4;
+}
+textarea.custom-text{
+	width: 100%;
+	border-radius: 10px;
+}
+.navbar-default {
+	position: fixed;
+	width: 100%;
+    background-color: transparent;
+    border-color: transparent;
+}
+.navbar-default .navbar-nav>li>a{
+	color: white;
+}
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover{
+	color: #f2c926;
+}
